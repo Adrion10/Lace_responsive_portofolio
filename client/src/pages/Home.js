@@ -1,11 +1,13 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div>
+      <Header />
       <div
         className="intruduction flex-with-center "
-        style={{ backgroundImage: `url('./wave1.svg')` }}
+        style={{ backgroundImage: `url('./wave.svg')` }}
       >
         <div>
           <h1>L a c e</h1>

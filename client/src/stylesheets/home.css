@@ -1,6 +1,8 @@
 .intruduction {
   height: 100vh;
   width: 100%;
+  background-position: 100% 100%;
+  background-size: cover;
 }
 .intruduction p {
   color: #fff;
@@ -8,6 +10,7 @@
 .intruduction div h1 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 100px;
+  font-weight: bold;
 }
 .intruduction div h1:hover {
   color: #fff;
@@ -17,6 +20,6 @@
 .primary-button {
   background-color: #fff;
   height: 45px;
-  border-radius: 20px;
+  border-radius: 25px;
   border: none;
 }
