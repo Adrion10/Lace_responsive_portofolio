@@ -2,4 +2,47 @@
   color: #fff;
   font-size: 60px;
   margin: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+.show-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #002233;
+  opacity: 0.95;
+  height: 65vh;
+  width: 50%;
+  border-bottom-left-radius: 50%;
+  transition: all 0.5s;
+}
+ul li {
+  color: #fff;
+  list-style: none;
+  margin-top: 25px;
+}
+ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.hide-header {
+  height: 0;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.n-box1 {
+  background: linear-gradient(145deg, #001f2e, #002437);
+  box-shadow: 23px 23px 16px #000e14, -23px -23px 16px #003652;
 }
