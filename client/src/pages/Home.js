@@ -4,16 +4,18 @@ const Home = () => {
   return (
     <div>
       <div
-        className="intruduction"
+        className="intruduction flex-with-center "
         style={{ backgroundImage: `url('./wave1.svg')` }}
       >
         <div>
-          <h1>Lace</h1>
-          <div className="intro_content">
+          <h1>L a c e</h1>
+          <div className="intro_content d-flex justify-content-between">
             <p>
               Junior <br /> Web Developer
             </p>
-            <button className="primary-button"></button>
+            <button className="primary-button font-bold w-50">
+              Get Started
+            </button>
           </div>
         </div>
       </div>
