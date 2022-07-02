@@ -22,4 +22,20 @@
   height: 45px;
   border-radius: 25px;
   border: none;
+  width: 50%;
+}
+@media (max-width: 750px) {
+  .intruduction div h1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .primary-button {
+    background-color: #fff;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    width: auto;
+    padding: 5px 15px;
+  }
 }

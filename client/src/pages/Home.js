@@ -10,14 +10,12 @@ const Home = () => {
         style={{ backgroundImage: `url('./wave.svg')` }}
       >
         <div>
-          <h1>L a c e</h1>
+          <h1>Lace Hilaj</h1>
           <div className="intro_content d-flex justify-content-between">
             <p>
               Junior <br /> Web Developer
             </p>
-            <button className="primary-button font-bold w-50">
-              Get Started
-            </button>
+            <button className="primary-button font-bold">Get Started</button>
           </div>
         </div>
       </div>
