@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Couresel from "../components/Courosel";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Couresel />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
 import "./stylesheets/home.css";
 import "./stylesheets/heaader-footer.css";
+import "./stylesheets/courosel.css";
 
 function App() {
   return (
