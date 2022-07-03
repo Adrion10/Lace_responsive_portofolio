@@ -17,28 +17,29 @@ const Courosel = () => {
           Technologs I use
         </h1>
         <div className="gallery">
-          <span>
+          <span style={{ "--i": 1 }}>
             <FaReact color="cyan" />
           </span>
-          <span>
-            <FaJsSquare color="yellow" />
-          </span>
-          <span>
-            <FaNodeJs color="green" />
-          </span>
-          <span>
-            <FaAngular color="orangered" />
-          </span>
-          <span>
-            <FaReact />
-          </span>
-          <span>
+          <span style={{ "--i": 2 }}>
             <FaBootstrap color="blue" />
           </span>
-          <span>
+          <span style={{ "--i": 3 }}>
+            <FaNodeJs color="green" />
+          </span>
+          <span style={{ "--i": 4 }}>
+            <FaAngular color="orangered" />
+          </span>
+          <span style={{ "--i": 5 }}>
+            <FaReact />
+          </span>
+
+          <span style={{ "--i": 6 }}>
+            <FaJsSquare color="yellow" />
+          </span>
+          <span style={{ "--i": 7 }}>
             <FaCss3 color="blue" />
           </span>
-          <span>
+          <span style={{ "--i": 8 }}>
             <FaHtml5 color="orange" />
           </span>
         </div>
