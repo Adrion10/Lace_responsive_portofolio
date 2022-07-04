@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Montserrat", sans-serif;
+  background-color: #ebecf0;
 }
 body,
 html {
@@ -29,4 +30,13 @@ code {
 }
 .font-bold {
   font-weight: bold;
+}
+.n-box1 {
+  background: linear-gradient(145deg, #001f2e, #002437);
+  box-shadow: 23px 23px 16px #000e14, -23px -23px 16px #003652;
+}
+.n-box2 {
+  border-radius: 50px;
+  background: #ebecf0;
+  box-shadow: 5px 5px 0px #b7b8bb, -5px -5px 0px #ffffff;
 }
