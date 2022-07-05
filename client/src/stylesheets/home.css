@@ -24,6 +24,17 @@
   border: none;
   width: 50%;
 }
+.devstack {
+  color: #000;
+  transition: all 0.5s;
+  padding: 10px;
+}
+.devstack:hover {
+  color: #fff;
+  background-color: #002233;
+  transform: scale(1.06);
+  box-shadow: none;
+}
 @media (max-width: 750px) {
   .intruduction div h1 {
     color: rgba(255, 255, 255, 0.5);

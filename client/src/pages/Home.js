@@ -30,7 +30,7 @@ const Home = () => {
           ></path>
         </svg>
       </div>
-      <div className="container">
+      <div className="container w-80">
         <div className="row justify-content-start">
           <div className="col-md-4">
             <div className="n-box2 px-3 py-4 font-bold">
@@ -43,7 +43,12 @@ const Home = () => {
         <div className="row pt-5 justify-content-center">
           <div className="col-md-4 ">
             <div>
-              <img src="./WebDeveloper.svg" alt="webdev" />
+              <img
+                src="./WebDeveloper.svg"
+                alt="webdev"
+                height="300"
+                className="w-100"
+              />
             </div>
           </div>
         </div>
@@ -52,6 +57,61 @@ const Home = () => {
             <div className="n-box2 px-3 py-4 font-bold">
               <h1>Yes you are right</h1>
               <p>I am Junior Web developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" devstack
+      container my-5 n-box2 py-5  "
+      >
+        <div className="text-center">
+          <h3 className="font-bold text-center ">My Development Stack</h3>
+          <hr />
+          <img
+            src="./sombras.png"
+            alt=""
+            height="250"
+            width="250"
+            className="text-center"
+          />
+        </div>
+
+        <div className="row">
+          <div className="col-md-4">
+            <div className="font-bold">
+              <h3 className="font-bold">Front-End</h3>
+              <hr />
+              <p>HTML/CSS</p>
+              <p>Javascript</p>
+              <p>ReactJS</p>
+              <p>Redux</p>
+              <p>Angular</p>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="font-bold text-center">
+              <h3 className="font-bold">UI/Styling</h3>
+              <hr />
+              <p>Bootstrap</p>
+              <p>Material UI</p>
+              <p>AnDesign</p>
+              <p>Tailwind CSS</p>
+              <p>Semantic UI</p>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="font-bold text-end">
+              <h3 className="font-bold">Backend</h3>
+              <hr />
+              <p>Node JS</p>
+              <p>Express</p>
+              <p>SQL</p>
+              <p>Mongo DB</p>
+              <p>Python</p>
             </div>
           </div>
         </div>
