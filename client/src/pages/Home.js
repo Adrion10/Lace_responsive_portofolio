@@ -70,10 +70,10 @@ const Home = () => {
           <h3 className="font-bold text-center ">My Development Stack</h3>
           <hr />
           <img
-            src="./sombras.png"
+            src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif"
             alt=""
-            height="250"
-            width="250"
+            height="300"
+            width="500"
             className="text-center"
           />
         </div>
