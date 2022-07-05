@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import "./stylesheets/home.css";
 import "./stylesheets/heaader-footer.css";
 import "./stylesheets/courosel.css";
+import "./stylesheets/project-courses.css";
 
 function App() {
   return (
