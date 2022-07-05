@@ -35,6 +35,22 @@
   transform: scale(1.06);
   box-shadow: none;
 }
+
+.who-is-lace {
+  height: 75vh;
+  background-size: 100% 100%;
+  color: #fff;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+/* .who-is-lace:hover {
+  transform: scale(1.05);
+  
+} */
+pre {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif !important;
+}
 @media (max-width: 750px) {
   .intruduction div h1 {
     color: rgba(255, 255, 255, 0.5);
@@ -48,5 +64,15 @@
     border: none;
     width: auto;
     padding: 5px 15px;
+  }
+  .who-is-lace {
+    height: 100vh;
+    background-size: 180% 100%;
+    color: #fff;
+    background-position: center;
+  }
+  pre {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif !important;
   }
 }

@@ -116,6 +116,33 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div>
+        <h3 className="font-bold text-center">Who is Lace Hilaj</h3>
+
+        <div
+          className="who-is-lace flex-with-center"
+          style={{ backgroundImage: `url('./laceAbout.svg')` }}
+        >
+          <div>
+            <h3>Hi, Hello World </h3>
+            <hr />
+            <p>
+              <pre>
+                {JSON.stringify(
+                  {
+                    name: "Lace Hila",
+                    from: "Albania",
+                    age: 40,
+                    gender: "Male",
+                  },
+                  null,
+                  2
+                )}
+              </pre>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
