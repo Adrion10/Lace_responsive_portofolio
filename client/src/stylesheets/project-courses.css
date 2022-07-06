@@ -3,11 +3,15 @@
   color: white;
   font-weight: bold;
 }
+.projects-list {
+  overflow: hidden;
+}
 .project {
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   margin-top: 50px;
+  animation: project-animation 10s linear infinite;
 }
 .project img {
   height: 220px;
@@ -17,6 +21,9 @@
   opacity: 1;
   transform: scale(1.05);
   cursor: pointer;
+}
+.project:hover {
+  animation-play-state: paused;
 }
 .project-content {
   position: absolute;
@@ -34,4 +41,22 @@
   font-weight: 500;
   border-radius: 10px;
   opacity: 0;
+}
+
+@keyframes project-animation {
+  0% {
+    transform: rotate(-5deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
 }
