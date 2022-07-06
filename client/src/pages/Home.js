@@ -30,7 +30,7 @@ const Home = () => {
           ></path>
         </svg>
       </div>
-      <div className="container w-80">
+      <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
             <div className="n-box2 px-3 py-4 font-bold">
