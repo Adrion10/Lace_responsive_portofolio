@@ -1,7 +1,26 @@
 import React from "react";
 
 const Contact = () => {
-  return <h1>Contact</h1>;
+  return (
+    <div>
+      <div className="container contact mt-5">
+        <div className="row pt-5">
+          <div className="col-md-6 p-5">
+            <img src="./contactus.svg" alt="" />
+          </div>
+          <div className="col-md-6">
+            <div className="contact-form m-2 p-5 n-box2">
+              <input type="text" className="form-controll" placeholder="Name" />
+
+              <input type="text" className="form-controll" placeholder="Name" />
+              <textarea className="form-controll" rows={3} defaultValue={""} />
+              <button className="primary-button">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Contact;

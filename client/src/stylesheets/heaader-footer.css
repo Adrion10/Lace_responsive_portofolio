@@ -54,6 +54,19 @@ ul a {
   font-weight: bold;
   color: cyan;
 }
+.contact img {
+  height: 50vh;
+  width: 100%;
+}
+input,
+textarea,
+button {
+  margin-top: 25px;
+  border: none;
+}
+.form-controll {
+  box-shadow: none;
+}
 
 @media (max-width: 750px) {
   .show-header {
