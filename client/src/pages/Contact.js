@@ -16,7 +16,11 @@ const Contact = () => {
 
               <hr />
               <input type="text" className="form-control" placeholder="Name" />
-              <input type="text" className="form-control" placeholder="Name" />
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Email"
+              />
               <textarea className="form-control" rows={3} defaultValue={""} />
               <button className="primary-button mt-3">SUMBIT</button>
             </div>

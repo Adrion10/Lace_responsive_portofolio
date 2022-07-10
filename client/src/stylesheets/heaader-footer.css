@@ -54,18 +54,33 @@ ul a {
   font-weight: bold;
   color: cyan;
 }
+.contact {
+  padding-top: 50px;
+}
 .contact img {
   height: 50vh;
   width: 100%;
 }
+
 input,
-textarea,
-button {
+textarea {
   margin-top: 25px;
-  border: none;
+  border: none !important;
+  background-color: #ebecf0 !important;
+  background: #ebecf0;
+  box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px #ffffff !important;
+  border-radius: 20px !important;
 }
-.form-controll {
+.form-control:focus {
+  transform: scale(1.02);
+}
+.form-control {
   box-shadow: none;
+}
+.contact button {
+  background-color: rgba(0, 0, 255, 0.856);
+  color: white;
+  font-weight: bold;
 }
 
 @media (max-width: 750px) {
