@@ -87,6 +87,14 @@ textarea {
   text-align: center;
   color: #fff;
 }
+.footer-icons svg {
+  color: #fff;
+}
+.footer-icons:hover {
+  color: cyan;
+  transform: scale(1.7);
+  cursor: pointer;
+}
 
 @media (max-width: 750px) {
   .show-header {
