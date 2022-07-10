@@ -82,6 +82,11 @@ textarea {
   color: white;
   font-weight: bold;
 }
+.footer-content {
+  background-color: #002233;
+  text-align: center;
+  color: #fff;
+}
 
 @media (max-width: 750px) {
   .show-header {
