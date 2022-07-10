@@ -15,14 +15,14 @@ const Footer = () => {
           <path
             fill="#002233"
             fillOpacity="1"
-            d="M0,64L60,74.7C120,85,240,107,360,106.7C480,107,600,85,720,74.7C840,64,960,64,1080,74.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,197.3C840,203,960,149,1080,128C1200,107,1320,117,1380,122.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
         <div className="row justify-content-center footer-content">
           <div className="col-md-6">
-            {/* <p>Designed and Developed by Lace</p> */}
+            <p>Designed and Developed By</p>
             <hr />
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between px-3">
               <FaFacebook className="footer-icons" />
               <FaInstagram className="footer-icons" />
               <FaXing className="footer-icons" />
@@ -30,6 +30,8 @@ const Footer = () => {
               <FaGithub className="footer-icons" />
             </div>
             <hr />
+            <br />
+            <p>Lace Hilaj</p>
           </div>
         </div>
       </div>

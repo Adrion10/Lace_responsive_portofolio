@@ -124,22 +124,20 @@ const Home = () => {
           style={{ backgroundImage: `url('./laceAbout.svg')` }}
         >
           <div>
-            <h3>Hi, Hello World </h3>
+            <h3>Hello World </h3>
             <hr />
-            <p>
-              <pre>
-                {JSON.stringify(
-                  {
-                    name: "Lace Hila",
-                    from: "Albania",
-                    age: 40,
-                    gender: "Male",
-                  },
-                  null,
-                  2
-                )}
-              </pre>
-            </p>
+            <pre>
+              {JSON.stringify(
+                {
+                  name: "Lace Hila",
+                  from: "Albania",
+                  age: 40,
+                  gender: "Male",
+                },
+                null,
+                2
+              )}
+            </pre>
           </div>
         </div>
       </div>

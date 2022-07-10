@@ -87,7 +87,7 @@ textarea {
   text-align: center;
   color: #fff;
 }
-.footer-icons svg {
+.footer svg {
   color: #fff;
 }
 .footer-icons:hover {
@@ -133,10 +133,10 @@ textarea {
     transition: all 0s;
   }
   .menu-icon {
-    color: #fff;
+    color: cyan;
     font-size: 30px;
     margin: 20px;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
   }
   .contact {

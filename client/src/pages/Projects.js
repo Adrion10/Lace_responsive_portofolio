@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import { FaLaptopCode } from "react-icons/fa";
 import projectData from "./projectData";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -38,19 +39,27 @@ const Projects = () => {
         </div>
       </div>
       <div className="container projects-list">
-        <h3 classNAme="font-bold">Take a look of my Projects</h3>
+        <h3 className="font-bold">Take a look of my Projects</h3>
         <hr />
         <div className="row">
           {projectData.map((project) => {
             return (
-              <div className="col-md-4">
+              <div key={project.id} className="col-md-4">
                 <div className="position-relative project">
-                  <img src={project.path} alt="" />
+                  <img src={project.path} alt={project.link} />
                   <div className="project-content">
                     <h3>{project.title}</h3>
                     <hr />
                     <p>{project.desc}</p>
-                    <button className="primary-button">DEMO</button>
+                    <button className="primary-button">
+                      <Link
+                        to={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        DEMO
+                      </Link>
+                    </button>
                   </div>
                 </div>
               </div>
