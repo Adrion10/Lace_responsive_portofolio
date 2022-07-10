@@ -78,7 +78,7 @@ textarea {
   box-shadow: none;
 }
 .contact button {
-  background-color: rgba(0, 0, 255, 0.856);
+  background-color: rgba(0, 0, 255, 0.6);
   color: white;
   font-weight: bold;
 }
@@ -125,5 +125,13 @@ textarea {
     margin: 20px;
     z-index: 2;
     cursor: pointer;
+  }
+  .contact {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+  .contact-form {
+    padding: 15px !important;
+    margin: 15px;
   }
 }
