@@ -11,7 +11,7 @@ const Home = () => {
         style={{ backgroundImage: `url('./wave.svg')` }}
       >
         <div>
-          <h1>Lace Hilaj</h1>
+          <h1 data-aos="fade-up">Lace Hilaj</h1>
           <div className="intro_content d-flex justify-content-between">
             <p>
               Junior <br /> Web Developer
