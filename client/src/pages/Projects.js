@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="container projects-info">
         <div className="row flex-with-center mt-5">
           <div className="col-md-6 n-box2 px-3 py-5">
-            <div>
+            <div data-aos="fade-down">
               <h1 className="font-bold">Projects</h1>
               <p className="font-bold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
