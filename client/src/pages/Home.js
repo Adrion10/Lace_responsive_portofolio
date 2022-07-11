@@ -33,7 +33,7 @@ const Home = () => {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box2 px-3 py-4 font-bold">
+            <div className="n-box2 px-3 py-4 font-bold" data-aos="fade-right">
               <h1>Yes you are right...</h1>
               <br />
               <p>I am Junior Web developer</p>
@@ -48,13 +48,14 @@ const Home = () => {
                 alt="webdev"
                 height="300"
                 className="w-100"
+                data-aos="fade-up"
               />
             </div>
           </div>
         </div>
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box2 px-3 py-4 font-bold">
+            <div className="n-box2 px-3 py-4 font-bold" data-aos="fade-left">
               <h1>Yes you are right</h1>
               <p>I am Junior Web developer</p>
             </div>
